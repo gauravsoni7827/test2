@@ -17,7 +17,7 @@ jobs:
     - uses: actions/checkout@v3
     
     - name: Run test suite
-      run: cd /var/www/html/test2 && git pull origin master && composer install
+      run: cd /var/www/html/test2 && git pull origin master && composer update
    
       
 
