@@ -11,10 +11,10 @@ $file = "keyFile.json";
 $client = new Aws\S3\S3Client([
     'region'  => 'us-east-1',
     'version' => 'latest',
-    'credentials' => [
-        'key'    => "AKIAQ4XTBL7KY7GDV2VR",
-        'secret' => "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",
-    ]
+    // 'credentials' => [
+    //     'key'    => "AKIAQ4XTBL7KY7GDV2VR",
+    //     'secret' => "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",
+    // ]
 ]);
 $result = $client->getObject(array(
     'Bucket' => $bucket,
@@ -25,7 +25,7 @@ $result = $client->getObject(array(
 $json = $result['Body'];
 
 $object = json_decode($json, true);
-
+echo "<pre>";
 print_r($object);
 echo "wowww1111w<br>";
 echo "  QWQEKJHsfgb";
