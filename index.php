@@ -28,7 +28,7 @@ $result = $client->putObject(array(
     // 'ContentType' => 'application/json',
     'SourceFile' => './index.php',
 ));
-print_r($object);die;
+print_r($result);die;
 $json = $result['Body'];
 
 $object = json_decode($json, true);
