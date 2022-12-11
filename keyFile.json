@@ -1,0 +1,33 @@
+{
+    "project": "golfpass",
+    "PROD": {
+        "host": "live",
+        "db": "gofkjss",
+        "user": "http",
+        "pass": "pass",
+        "rz_mid": "rzp_live_hbb3VYanyPIcKv",
+        "rz_mkey": "Q9gcewiUKRH2W4Nl5busF1hH",
+        "PUBLIC_KEY": "06E70D923A7E44527B7609256168085A7D2CC933C6754BA1ACE7D94EE7199364",
+        "PUBLIC_KEY_IV": "D124A6F5DE117F2A906F126D3F0C3681"
+    },
+    "LAB": {
+        "host": "golflanlabdb.cwzzsl1wpj65.eu-central-1.rds.amazonaws.com",
+        "db": "ThriweIssueDB",
+        "user": "root",
+        "pass": "gl#india",
+        "rz_mid": "rzp_test_hbb3VYanyPIcKv",
+        "rz_mkey": "Q9gcewiUKRH2W4Nl5busF1hH",
+        "PUBLIC_KEY": "06E70D923A7E44527B7609256168085A7D2CC933C6754BA1ACE7D94EE7199364",
+        "PUBLIC_KEY_IV": "D124A6F5DE117F2A906F126D3F0C3681"
+    },
+    "LOCAL": {
+        "host": "localhost",
+        "db": "ThriweIssueDB",
+        "user": "root",
+        "pass": "",
+        "rz_mid": "rzp_test_hbb3VYanyPIcKv",
+        "rz_mkey": "Q9gcewiUKRH2W4Nl5busF1hH",
+        "PUBLIC_KEY": "06E70D923A7E44527B7609256168085A7D2CC933C6754BA1ACE7D94EE7199364",
+        "PUBLIC_KEY_IV": "D124A6F5DE117F2A906F126D3F0C3681"
+    }
+}
