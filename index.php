@@ -29,7 +29,7 @@ $result = $client->putObject(array(
     'SourceFile' => './index.php',
 ));
 echo "<pre>"; 
-print_r($result);die;
+//print_r($result);die;
 $json = $result['Body'];
 
 $object = json_decode($json, true);
