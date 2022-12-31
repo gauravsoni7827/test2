@@ -8,7 +8,7 @@ use Aws\Exception\AwsException;
  
 $bucket = "mybucketthriwe";
 $file = "keyFile.json";
-$file1 = "keyFqile.json";
+$file1 = "keyFqil11e.json";
 $client = new Aws\S3\S3Client([
     'region'  => 'us-east-1',
     'version' => 'latest',
